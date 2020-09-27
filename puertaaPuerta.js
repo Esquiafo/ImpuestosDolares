@@ -1,4 +1,4 @@
-var dolar = 80.03
+var dolar = 80.03 //Proxima API
 
 function puertapuerta(input) {
     let overprice = 49.99;
@@ -15,13 +15,3 @@ function puertapuerta(input) {
     result = result + (result * 30/100);
     return result
 }
-
-
-function compraexterior(input) {
-    let result = input * dolar;
-    result = result + (result * 30/100);
-    return result
-}
-
-console.log(puertapuerta(140))
-console.log(compraexterior(140))
