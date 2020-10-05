@@ -14,6 +14,4 @@ fetch(
         return result
     }
       
-
-    console.log(compraexterior(2.397))
     });

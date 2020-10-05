@@ -22,5 +22,4 @@ fetch(
         result = result + (result * 30/100);
         return result + 190
     }
-    console.log(puertapuerta(100))
     });
